@@ -26,9 +26,21 @@ a:hover {
 body {
   margin: 0;
   display: flex;
-  place-items: center;
+  /* place-items: center; */
   min-width: 320px;
   min-height: 100vh;
+  background: linear-gradient(
+      110deg,
+      rgb(6, 14, 75) 0%,
+      rgb(7, 19, 89) 40%,
+      rgba(7, 23, 105, 0.35) 70%,
+      rgba(0, 0, 255, 0.8) 100%
+    ),
+    url("../src/assets/background.png");
+  background-size: cover;
+  background-position: center center;
+  justify-content: center;
+  padding: 50px 0px;
 }
 
 h1 {
